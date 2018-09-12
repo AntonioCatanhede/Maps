@@ -26,8 +26,8 @@ func printMap(m map[string]string) {
 		fmt.Println(key, "é representado por", value)
 	}
 	//maneira alternativa
-	for key := range m {
-		fmt.Println(key, "é representado por", m[key])
-	}
+	// for key := range m {
+	// 	fmt.Println(key, "é representado por", m[key])
+	// }
 
 }
